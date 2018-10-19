@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="match_parent"
+		android:scaleType="fitCenter"
+		android:adjustViewBounds="true"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/imageView1" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtName" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtLikes" />
+	<Button
+		android:text="Button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnSubmit" />
+
+</LinearLayout>
